@@ -1,0 +1,24 @@
+/* Também podemos juntar as forças e a somatória do mais forte subjuga os outros */
+h1.title#my-title{
+    color: blueviolet;
+}
+
+/* ID selector com força 100 */
+#my-title{
+    color: aqua;
+}
+
+/* Class com força 10 */
+.title {
+    color: red;
+}
+
+/* Element type selector com força 1*/
+h1 {
+    color: blue;
+}
+
+/* Universal selector com força 0 */
+* {
+    color: green; 
+} 
