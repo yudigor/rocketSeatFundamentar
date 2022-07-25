@@ -1,0 +1,25 @@
+/* DIV por padrão é display block
+
+width e height são respeitados
+
+padding, margin, border irão funcionar normalmente
+
+*/
+div{
+    width: 80px;
+    height: 40px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid red;
+}
+
+/* a tag P por padrão é inline
+
+width e height não funcionam
+
+Somente valores horizontais de margin
+*/
+span{
+    margin: 10px;
+    border: 1px solid green;
+}
