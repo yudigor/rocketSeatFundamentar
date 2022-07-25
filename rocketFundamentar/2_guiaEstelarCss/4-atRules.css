@@ -1,0 +1,29 @@
+/* 
+@import serve para incluir um CSS externo.
+@media são regras condicionais para vários dispositivos.
+@font-face é para colocar fontes externas.
+@keyframes serve para as animations do CSS.
+
+*/
+
+/* @import serve para incluir um CSS externo. */
+@import url("http://local.com/style.css"); 
+
+
+/* @media são regras condicionais para vários dispositivos */
+@media (min-width: 600px){
+    /* Regras aqui */
+
+}
+
+/* @font-face é para colocar fontes externas */
+@font-face {
+    /* Regras aqui */
+
+}
+
+/* @keyframes serve para as animations do CSS */
+@keyframes nameofanimation{
+    /* Regras aqui */
+
+}
