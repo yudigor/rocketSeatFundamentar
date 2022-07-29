@@ -1,0 +1,34 @@
+
+div{
+    color: blue;
+}
+
+h1{
+    /* puxa a color do elemento pai */
+    color: currentColor;
+}
+
+div{
+    /*<hex-color> values 0-9 e A-F*/
+    color: #090; /* RED, GREEN, BLUE */
+    color: #009900;
+    color: #090a;
+    color:#009900aa;
+}
+
+div{
+    /*<rgb()> values */
+    color: rgb(34, 12, 64, 0,6) /* 0-255 */
+}
+
+p{
+    /* HSL → Hue - Saturation - Lightness */
+    color: hsl(180, 45%, 50%)
+}
+
+h1{
+    /* Global values */
+    color: inherit; /* Herda a cor do elemento anterior */
+    color: initial; /* Volta a sua cor inicial */
+    color: unset; /* Pega a cor do contexto */
+}
