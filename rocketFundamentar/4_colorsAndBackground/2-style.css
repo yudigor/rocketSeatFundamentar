@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+}
+
+/* 
+Para adicionar uma imagem como background podemos usar a propriedade background-image
+
+Por padrão a imagem vai se repetir e podemos modificar essa opção usando a propriedade background-repeat
+
+/* Values do repeat
+background-repeat: repeat-x;
+background-repeat: repeat-y;
+background-repeat: repeat;
+background-repeat: space;
+background-repeat: round;
+background-repeat: no-repeat;
+
+Usamos o position para posicionar a imagem em sua propria box
+
+background-position: top; podemos usar tbm bottom, right, left */
+
+
+header {
+    height: 300px;
+    border: 7px dashed red;
+    background-color: rgb(55, 100, 50);
+    background-image: url(https://tm.ibxk.com.br/2020/01/30/30021141299110.jpg?ims=1120x420) ;
+    background-position: right top;
+}
+
+/* Para mudar o tamanho da imagem do background usamos a propriedade background-size.
+
+/* Values 
+
+background-size: cover;
+background-size: contain; podemos substituir tbm por valores como %, px, em e auto */
+
+header{
+    background-size: cover;
+}
